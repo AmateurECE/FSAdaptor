@@ -1,0 +1,6 @@
+./include/FSAdaptor/Path.h: Implement operator<< | id:26d2db21519572e55f7c96ee51ffe7f1c373cea6
+./include/FSAdaptor/Path.h: Implement operator== | id:31e64831d42a618f2dae613945264ad8c9ed3185
+./include/FSAdaptor/StandardFilesystemAdaptor.h: Move listDirectory to the public interface | id:7b2107b6ec3565c10b5ff38f3b3e697a6614e616
+./source/StandardFilesystemAdaptor.cpp: Add support for non-english locales | id:80b7eab01475dacd9b703e486f55ac34afe9cf89
+./source/StandardFilesystemAdaptor.cpp: Port to Windows | id:ac57cc664ac5dc3fff599db462d4fc880aa2734e
+./test/TestMain.cpp: Update and refactor unit tests | id:c3beeb439aa0be2cb8cb3602838196ed67a92317
