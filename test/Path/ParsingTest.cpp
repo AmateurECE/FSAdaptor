@@ -73,4 +73,10 @@ TEST_F(ParsingTest, DotEnd)
   ASSERT_EQ(FSAdaptor::Path{pathName}.string(), "A/Path/ending./in/a/dot.");
 }
 
+TEST_F(ParsingTest, MultipleDots)
+{
+  static const std::string pathName = "A. Path with multiple.dots";
+  ASSERT_EQ(FSAdaptor::Path{pathName}.extension().string(), ".dots");
+}
+
 ///////////////////////////////////////////////////////////////////////////////
