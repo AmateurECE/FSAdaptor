@@ -1,13 +1,9 @@
 ./source/StandardFilesystemAdaptor.cpp: Switch to using std::filesystem::path | id:1b1e76cd58d9f6979a17ed6cfbd1a1c8980ba5fa
 ./include/FSAdaptor/Path.h: Implement has_extension | id:301e0a44a87dd1491e8730e3cdd48d08d8708ee7
-./include/FSAdaptor/Path.h: Implement operator== | id:31e64831d42a618f2dae613945264ad8c9ed3185
 ./include/FSAdaptor/Path.h: Implement has_root_path | id:445434e6d05cb25b7a4768da22d0a0cceb180e08
 ./source/Path.cpp: Implement tests and rest of normalizePath | id:675079eef472f1632c1c632ed66f913c44bc0745
 ./include/FSAdaptor/Path.h: Implement has_filename | id:72382111ec1f1c57411429212e7968c6e6268a40
 ./include/FSAdaptor/StandardFilesystemAdaptor.h: Move listDirectory to the public interface | id:7b2107b6ec3565c10b5ff38f3b3e697a6614e616
 ./source/StandardFilesystemAdaptor.cpp: Add support for non-english locales | id:80b7eab01475dacd9b703e486f55ac34afe9cf89
-./include/FSAdaptor/Path.h: Implement operator/= | id:88ba17a475c79ef097e321b85980242a554245ee
 ./test/TestMain.cpp: Update and refactor unit tests | id:c3beeb439aa0be2cb8cb3602838196ed67a92317
-./include/FSAdaptor/Path.h: Implement operator+= | id:e26623146759623b97ecda25019c58f23e24047a
-./include/FSAdaptor/Path.h: Implement operator!= | id:ec92bee678aac3cef6e2a2ed01789d1d5f1bc47a
 ./CMakeLists.txt: Ensure that the library can be installed correctly. | id:efaaa7e583995efced4e077bf3df2ea3e0bb1d98
