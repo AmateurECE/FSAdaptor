@@ -19,6 +19,7 @@ add_executable(UnitTests
     Path/ParsingTest.cpp
     Path/ConcatenatingTest.cpp
     Path/DiscoveredDefects.cpp
+    Path/IteratorTest.cpp
 )
 
 target_include_directories(UnitTests

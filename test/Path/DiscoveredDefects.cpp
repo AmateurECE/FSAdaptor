@@ -18,10 +18,11 @@
 class DiscoveredDefects : public ::testing::Test
 {};
 
+// Apparently this is what std::filesystem::path does.
 TEST_F(DiscoveredDefects, EmptyStringForDir)
 {
   static const std::string pathName = "/Users/ethantwardy/Downloads/NewMusic/";
-  ASSERT_EQ(FSAdaptor::Path{pathName}.filename().string(), "NewMusic");
+  ASSERT_EQ(FSAdaptor::Path{pathName}.filename().string(), "");
 }
 
 ///////////////////////////////////////////////////////////////////////////////

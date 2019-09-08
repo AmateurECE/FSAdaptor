@@ -67,4 +67,10 @@ TEST_F(ParsingTest, Spaces)
   ASSERT_EQ(FSAdaptor::Path{pathName}.string(), pathName);
 }
 
+TEST_F(ParsingTest, DotEnd)
+{
+  static const std::string pathName = "./A/Path/ending./in/a/dot.";
+  ASSERT_EQ(FSAdaptor::Path{pathName}.string(), "A/Path/ending./in/a/dot.");
+}
+
 ///////////////////////////////////////////////////////////////////////////////
