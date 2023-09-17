@@ -17,9 +17,9 @@
   "in a top-down fashion, visiting all files and sub-directories\n"\
   "recursively, then printing a list of the files discovered."
 
-#include <FSAdaptor/Path.h>
-#include <FSAdaptor/PathWalker.h>
-#include <FSAdaptor/StandardFilesystemAdaptor.h>
+#include <fsadaptor/Path.h>
+#include <fsadaptor/PathWalker.h>
+#include <fsadaptor/StandardFilesystemAdaptor.h>
 
 #include <iostream>
 #include <list>

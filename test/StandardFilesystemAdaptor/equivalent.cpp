@@ -15,8 +15,8 @@
   "\n"\
   "Determine if <path1> is equivalent to <path2>"
 
-#include <FSAdaptor/Path.h>
-#include <FSAdaptor/StandardFilesystemAdaptor.h>
+#include <fsadaptor/Path.h>
+#include <fsadaptor/StandardFilesystemAdaptor.h>
 
 #include <iostream>
 

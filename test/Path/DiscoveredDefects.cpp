@@ -13,7 +13,7 @@
 
 #include "gtest/gtest.h"
 
-#include <FSAdaptor/Path.h>
+#include <fsadaptor/Path.h>
 
 class DiscoveredDefects : public ::testing::Test
 {};

@@ -16,8 +16,8 @@
   "If <path> is not an absolute path, attempt to locate its absolute path\n"\
   "and print it."
 
-#include <FSAdaptor/Path.h>
-#include <FSAdaptor/StandardFilesystemAdaptor.h>
+#include <fsadaptor/Path.h>
+#include <fsadaptor/StandardFilesystemAdaptor.h>
 
 #include <iostream>
 

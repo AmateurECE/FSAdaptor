@@ -15,8 +15,8 @@
   "\n"\
   "Determine if <path> points to an existing and empty file on the filesystem."
 
-#include <FSAdaptor/Path.h>
-#include <FSAdaptor/StandardFilesystemAdaptor.h>
+#include <fsadaptor/Path.h>
+#include <fsadaptor/StandardFilesystemAdaptor.h>
 
 #include <iostream>
 

@@ -15,8 +15,8 @@
   "\n"\
   "Create the directory at <path>. All intermediate directories must exist."
 
-#include <FSAdaptor/Path.h>
-#include <FSAdaptor/StandardFilesystemAdaptor.h>
+#include <fsadaptor/Path.h>
+#include <fsadaptor/StandardFilesystemAdaptor.h>
 
 #include <iostream>
 

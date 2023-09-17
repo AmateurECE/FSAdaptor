@@ -12,7 +12,7 @@
 
 #include "gtest/gtest.h"
 
-#include <FSAdaptor/Path.h>
+#include <fsadaptor/Path.h>
 
 class ConcatenatingTest : public ::testing::Test
 {};

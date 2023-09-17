@@ -15,8 +15,8 @@
   "\n"\
   "Determine if <path> refers to an existing directory on the filesystem."
 
-#include <FSAdaptor/Path.h>
-#include <FSAdaptor/StandardFilesystemAdaptor.h>
+#include <fsadaptor/Path.h>
+#include <fsadaptor/StandardFilesystemAdaptor.h>
 
 #include <iostream>
 

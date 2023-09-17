@@ -16,8 +16,8 @@
   "If <oldPath> refers to an existing file on the filesystem, change the\n"\
   "path of that file to <newPath>"
 
-#include <FSAdaptor/Path.h>
-#include <FSAdaptor/StandardFilesystemAdaptor.h>
+#include <fsadaptor/Path.h>
+#include <fsadaptor/StandardFilesystemAdaptor.h>
 
 #include <iostream>
 
